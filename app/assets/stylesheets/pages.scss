@@ -1,3 +1,35 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// bootstrap
+
+.navbar {
+    margin-bottom: 0!important;
+}
+
+
+
+
+// home.html.erb
+
+.home-main {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  background: rgb(232, 127, 42);
+}
+
+
+
+
+
+.top-title {
+
+  font-size: 150px;
+  text-align: center;
+  position: relative;
+  top: 30%;
+  font-weight: bold;
+
+}
