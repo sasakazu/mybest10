@@ -17,6 +17,11 @@
 
  // bootstrap
 
+ .navbar {
+     margin-bottom: 0!important;
+ }
+
+
 
 
  .navbar-default {
@@ -26,10 +31,24 @@
 
 .navbar {
     border-radius: 0px!important;
+
+
+}
+
+.navbar-nav {
+  a {
+    color: #FFF!important;
+  }
+  a:hover {
+    text-decoration: none;
+    background: #FFF!important;
+    color: rgb(232, 127, 42)!important;
+    transition: .5s ease-in-out;
+  }
 }
 
 .navbar-brand {
-  color: #FFF!important;
+  color: #000!important;
 }
 
 .navbar-right {
