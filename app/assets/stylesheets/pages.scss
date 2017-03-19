@@ -18,6 +18,24 @@
   height: 80%;
   width: 100%;
   background: rgb(232, 127, 42);
+
+  a {
+    position: absolute;
+    bottom: 20%;
+    left: 46%;
+    color: #FFF;
+    padding: 15px 30px;
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    font-size: 20px;
+
+  }
+
+  a:hover {
+    text-decoration: none;
+    background: #FFF;
+    color: rgb(232, 127, 42);
+  }
 }
 
 
@@ -29,7 +47,6 @@
   font-size: 150px;
   text-align: center;
   position: relative;
-  top: 30%;
+  top: 20%;
   font-weight: bold;
-
 }

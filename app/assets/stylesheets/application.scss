@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+
+ // bootstrap
+
+
+
+ .navbar-default {
+    border-color: #E87F2A!important;
+    background-color: #E87F2A!important;
+}
+
+.navbar {
+    border-radius: 0px!important;
+}
+
+.navbar-brand {
+  color: #FFF!important;
+}
+
+.navbar-right {
+
+  a {
+    color: #FFF!important;
+
+  }
+}
