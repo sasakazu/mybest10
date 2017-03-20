@@ -1,18 +1,28 @@
+
+
+
 <%= render 'shared/header' %>
 
+<div class="about-main">
 
-<div class="container">
+  <div class="container">
 
-  <div class="about-main">
-    <h1>俺のベストとは？？？</h1>
-    <p>自分だけのオリジナルランキングを作って、みんなに披露しよう！！！</p>
-    <p>例えば、、俺のベストアルバムランキング。</p>
-    <p>例えば、、俺のベスト映画ランキング。</p>
-    <p>例えば、、俺のベスト本ランキング。</p>
-    <p>例えば、、俺のベストアルバム。</p>
+    <h1>俺のベスト10とは？？？</h1>
+    <p class="mybest-english">- my best 10 -</p>
+
+    <div class="about-contents">
+
+        例えば、、俺のベスト<span>「アルバム」</span>ランキング<br><br>
+        例えば、、俺のベスト<span>「本」</span>ランキング<br><br>
+        例えば、、俺のベスト<span>「映画」</span>ランキング。<br><br>
+        例えば、、俺のベスト<span>「ドラマ」</span>ランキング。<br><br><br><br>
+        自分だけのオリジナルランキングを作って、みんなに披露しよう！！！<br><br>
+    </div>
 
 
-    <a href="">ランキングを作る。</a>
+    <div class="about-btn">
+      <%= link_to 'ランキングを作る', new_mybest_path %>
+    </div>
 
   </div>
 </div>

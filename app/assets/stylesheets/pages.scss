@@ -47,8 +47,55 @@
 // about.html.erb
 
 .about-main {
+
+  background: #F4FAFA;
+  padding-bottom: 200px;
+  text-align: center;
+
   h1 {
     font-size: 70px;
-    margin: 70px;
+    margin-top: 70px;
+    color: #0bc8b6;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}
+
+.mybest-english {
+  color: #afbcc9;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 70px;
+
+}
+.about-contents {
+  color: #6b7c93;
+  font-size: 15px;
+  margin-bottom: 70px;
+
+  span {
+    color: #0bc8b6;
+    font-weight: bold;
+  }
+}
+
+.about-btn {
+
+  a {
+    color: #FFF;
+    background: #0bc8b6;
+    padding: 13px;
+    border-radius: 3px;
+
+  }
+
+  a:hover {
+    background: #FFF;
+    color: #0bc8b6;
+    border: 2px solid #0bc8b6;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    font-weight: bold;
+
   }
 }
