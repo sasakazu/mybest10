@@ -4,8 +4,12 @@ Rails.application.routes.draw do
 
   get 'pages/about' => 'pages#about'
 
+  get 'books/search' => 'books#search'
 
-  
+  get 'signup' => 'users#new'
+
+
+
   resources :users
   resources :mybests
 

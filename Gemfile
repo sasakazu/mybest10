@@ -45,6 +45,10 @@ gem 'sqlite3', group: :development
 gem 'pg', group: :production
 
 
+gem 'mysql2', '0.3.18'
+gem 'pry-rails'
+gem 'amazon-ecs'
+gem 'bcrypt', '~> 3.1.7'
 
 
 

@@ -1,0 +1,29 @@
+<%= render 'shared/header' %>
+
+<div class="container">
+
+
+<h1>sing-up</h1>
+
+
+    <%= form_for(@user) do |f| %>
+
+    <%= f.label :email %><br>
+    <%= f.text_field :email %><br>
+
+    <%= f.label :password, "パスワード" %><br>
+    <%= f.password_field :password %><br>
+
+    <%= f.label :password_confirmation, "パスワード再入力" %><br>
+    <%= f.password_field :password_confirmation %><br>
+
+    <%= f.submit "登録する" %>
+
+
+
+<% end %>
+
+
+
+</div>
+<%= render 'shared/footer' %>
